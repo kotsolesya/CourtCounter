@@ -83,4 +83,12 @@ public class MainActivity extends AppCompatActivity {
         teamBpoint=teamBpoint+1;
         displayForTeamB(teamBpoint);
     }
+
+//reset point
+    public void resetForTeam(View view) {
+        teamApoint = 0;
+        teamBpoint = 0;
+        displayForTeamA(teamApoint);
+        displayForTeamB(teamBpoint);
+    }
 }
